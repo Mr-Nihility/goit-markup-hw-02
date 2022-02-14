@@ -1,0 +1,113 @@
+:root {
+   --primary-color: #757575;
+   --secondary-color: #212121;
+   --accent-color:#2196F3;
+   --primary-bg-color: #E5E5E5;
+   --seconadary-bg-color: #2F303A;
+   --logo-color-text: #000000;
+   --alternative-color-text: #ffffff;
+}
+
+/* 
+   акцент цвет #2196F3
+   основной цвет фон #E5E5E5
+   вторичный цвет фона #2F303A;
+   цвет текста в лого: #000000;
+   цвет текста заголовков #212121
+   основной масив текста #757575;
+   текст во вторчином bg #FFFFFF;
+   prymary font-family roboto 400,500,700,900
+   logo ff Raleway 700 
+   */
+
+
+body {
+   color: var(--primary-color);
+   background-color: var(--primary-bg-color);
+}
+/* шапка сайта */
+/* логотип */
+.logo {
+   color: var(--logo-color-text);
+}
+.logo:hover,
+.logo:focus {
+   color: var(--accent-color);
+}
+.logo>span {
+   color: var(--accent-color);
+}
+/*
+.logo>span:hover,
+.logo>span:focus {
+   color: var(--logo-color-text);
+} 
+*/
+
+
+.list {
+   list-style: none;
+}
+/* site-nav */
+.site-nav .link{
+   color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color);
+}
+/* contacts */
+.contact-item {
+   color: var(--primary-color);
+}
+.contact-item:hover, 
+.contact-item:focus {
+   color: var(--accent-color);
+}
+/* sections */
+.section-title {
+   color: var(--secondary-color);
+}
+/* фон секций герои и футер */
+.hero, .page-footer {
+   background-color: var(--seconadary-bg-color);
+}
+/* герои  */
+
+.hero >h1 {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--alternative-color-text);
+}
+/* преимущества */
+
+.features-list .title {
+   color: var(--secondary-color);
+}
+
+/* футер */
+
+.alt {
+   color: var(--alternative-color-text);
+}
+/* кнопка */
+
+.button{
+   display: inline-block;
+   color: var(--alternative-color-text);
+   background: var(--accent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+.button:hover,
+.button:focus {
+   color: var(--accent-color)
+   background-color: var(var(--primary-bg-color));
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
