@@ -2,7 +2,7 @@
    --primary-color: #757575;
    --secondary-color: #212121;
    --accent-color:#2196F3;
-   --primary-bg-color: #E5E5E5;
+   --primary-bg-color: #F5F4FA;
    --seconadary-bg-color: #2F303A;
    --logo-color-text: #000000;
    --alternative-color-text: #ffffff;
@@ -127,6 +127,9 @@ body {
 }
 
 /* наша команда */
+.team {
+   background-color: var(--primary-bg-color);
+}
 
 .section .team-title {
    font-style: normal;
@@ -198,7 +201,7 @@ body {
    color: var(--alternative-color-text);
    background-color: rgba(33, 150, 243, 0.9);
 }
-/* кнопки радио */
+/* кнопки радио в портфолио*/
 
 .btm {
    display: inline-block;
@@ -210,9 +213,10 @@ body {
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--secondary-color);
-   background-color: #F5F4FA;
+   background-color: var(--primary-bg-color);
    border-radius: 4px;
 }
+
 .btm:hover, 
 .btm:focus {
    color: var(--alternative-color-text);
