@@ -8,6 +8,8 @@
    --alternative-bg-color: #F5F4FA ;
 }
 
+
+
 /* 
    акцент цвет #2196F3
    фон в секции команда и некоторого текста #E5E5E5
@@ -20,20 +22,27 @@
    logo ff Raleway 700 
    кнопка в секции герои при ховере #188CE8
 */
+/* ======================================================================================================================================================== */
+/*  глобальные стили боди */
 
 
 body {
    color: var(--primary-color);
-   background-color: var(--primary-bg-t-color);
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.03em;
+   background-color: var(--primary-bg-t-color);
 }
+
+/* ====================================================================================================================================================== */
+
 /* шапка сайта */
+
 /* логотип */
+
 .logo {
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
@@ -46,19 +55,16 @@ body {
 .logo:focus {
    color: var(--primary-color);
 }
-.logo>span {
-   color: var(--accent-color);
-}
+.logo>span { color: var(--accent-color); }
 
-.list {
-   list-style: none;
-}
+.list { list-style: none; }
+
+
 /* site-nav */
+
 .site-nav .link{
    color: var(--secondary-color);
    font-weight: 500;
-   font-size: 14px;
-   line-height: 1.14;
    letter-spacing: 0.02em;
    text-decoration: none;
 
@@ -68,20 +74,30 @@ body {
 .site-nav .link:focus {
    color: var(--accent-color);
 }
+
+
 /* contacts */
+
+
 .contact-item {
    font-weight: 500;
-   font-size: 14px;
-   line-height: 1,14;
    letter-spacing: 0.02em;
    text-decoration: none;
    color: var(--primary-color);
 }
+
 .contact-item:hover, 
 .contact-item:focus {
    color: var(--accent-color);
 }
+
+
+/* ------------------------------------------------------------------------ */
+
 /* sections */
+
+
+
 .section-title {
    font-weight: 700;
    font-size: 36px;
@@ -89,10 +105,14 @@ body {
    text-align: center;
    color: var(--secondary-color);
 }
+
 /* фон секций герои и футер */
-.hero, .page-footer {
-   background-color: var(--seconadary-bg-color);
-}
+
+
+.hero, .page-footer { background-color: var(--seconadary-bg-color); }
+
+
+
 /* герои  */
 
 .hero>h1 {
@@ -104,11 +124,13 @@ body {
    text-transform: uppercase;
    color: var(--primary-bg-t-color);
 }
+
+
+
 /* преимущества */
 
-.features-list {
-   list-style: none;
-}
+
+/* заголовок имеет дефолтные стили браузера, по этмоу нужно переопределить явно */
 
 .features-list .title {
    font-weight: 700;
@@ -117,14 +139,16 @@ body {
    text-transform: uppercase;
    color: var(--secondary-color);
 }
-.features-list .text {
-   line-height: 1.71;
-}
+
+.features-list .text { line-height: 1.71; }
+
+
 
 /* наша команда */
-.team {
-   background-color: var(--alternative-bg-color);
-}
+
+
+
+.team { background-color: var(--alternative-bg-color); }
 
 .section .team-title {
    font-weight: 500;
@@ -137,14 +161,20 @@ body {
    line-height: 1.19;
 }
 
+/* ============================================================================================================================================================ */
+
 
 /* футер */
+
+
 
 .alt {
    color: var(--primary-bg-t-color);
    font-style: normal;
 }
-/* кнопка */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* кнопка  "героев"*/
 
 .button {
    font-family:inherit;
@@ -167,6 +197,7 @@ body {
 
 
 /* ====================================================================================================================================================================================================================================== */
+
 
 /* портофолио */
 
@@ -198,7 +229,12 @@ body {
    background-color: rgba(33, 150, 243, 0.9);
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
 /* кнопки радио в портфолио*/
+
 
 .btm {
    display: inline-block;
@@ -212,7 +248,6 @@ body {
    border-radius: 4px;
 }
 
-
 .btm:hover, 
 .btm:focus {
    color: var(--primary-bg-t-color);
@@ -220,3 +255,5 @@ body {
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    cursor: pointer;
    }
+
+   /* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
