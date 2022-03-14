@@ -70,6 +70,10 @@ body {
 
 }
 
+.site-nav .selected-link {
+   color: var(--accent-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
    color: var(--accent-color);
@@ -168,7 +172,14 @@ body {
 
 
 
-.alt {
+
+.page-footer .contact-item {
+   font-weight: 400;
+   font-style: normal;
+   line-height: 1.71;
+   color: rgba(255, 255, 255, 0.6);
+}
+.page-footer .alt {
    color: var(--primary-bg-t-color);
    font-style: normal;
 }
