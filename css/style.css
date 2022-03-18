@@ -191,8 +191,15 @@ body {
    color: var(--accent-color);
 }
 
-.logo.alt:hover,.logo.alt:focus {
-   color:var(--accent-color) ;}
+.logo.alt:hover,
+.logo.alt:focus {
+   color:var(--accent-color) ;
+}
+
+.logo.alt>span:hover,
+.logo.alt>span:focus {
+   color:var(--primary-color) ;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* кнопка  "героев"*/
 
