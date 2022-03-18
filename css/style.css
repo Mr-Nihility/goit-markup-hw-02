@@ -51,6 +51,7 @@ body {
    text-decoration: none;
    color: var(--logo-color-text);
 }
+
 .logo:hover,
 .logo:focus {
    color: var(--primary-color);
@@ -179,11 +180,19 @@ body {
    line-height: 1.71;
    color: rgba(255, 255, 255, 0.6);
 }
+
 .page-footer .alt {
    color: var(--primary-bg-t-color);
    font-style: normal;
 }
 
+.page-footer .contact-item:hover ,
+.page-footer .contact-item:focus {
+   color: var(--accent-color);
+}
+
+.logo.alt:hover,.logo.alt:focus {
+   color:var(--accent-color) ;}
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* кнопка  "героев"*/
 
@@ -213,9 +222,7 @@ body {
 /* портофолио */
 
 
-.card {
-   text-decoration: none;
-}
+.card {text-decoration: none;}
 
 .card .title {
    font-weight: 700;
